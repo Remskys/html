@@ -1,0 +1,49 @@
+@font-face {
+    font-display: swap;
+    font-family: "Rockwell Std Regular";
+    font-style: normal;
+    src: local('Rockwell Std Regular'),
+        local('RockwellStd-regular');
+    unicode-range: U+000-5FF;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Source Sans Pro Regular";
+    font-style: normal;
+    src: local('Source Sans Pro Regular'),
+        local('SourceSansPro-regular');
+    unicode-range: U+000-5FF;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Rockwell Std Regular', sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d40;
+    line-height: 1.75rem;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Source Sans Pro Regular', sans-serif;
+    font-size: 1rem;
+    color: #656469;
+    line-height: 1.75rem;
+}
+
+.container {
+    margin: 35px auto 0;
+    padding: 35px;
+    max-width: 351px;
+}
+
+@media (min-width:768px){
+    .container {
+        margin-top: 115px;
+    }
+}
